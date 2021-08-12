@@ -1,0 +1,60 @@
+[
+    {
+        "id":   "1",
+        "head": "int",
+        "code": "x = 0",
+        "exp":  "#x type is integer and will be displayed as 0",
+        "but":  "Copy int Code"
+    },
+    {
+        "id":   "2",
+        "head": "int casting",
+        "code": "x = int(0)",
+        "exp":  "#x casted as integer and will be displayed as 0",
+        "but":  "Copy int casted Code"
+    },
+    {
+        "id":   "3",
+        "head": "float",
+        "code": "x = 5.000",
+        "exp":  "#x type will be float because of the decimal point",
+        "but":  "Copy float Code"
+    },
+    {
+        "id":   "4",
+        "head": "Print float type",
+        "code": "print(type(0.51))",
+        "exp":  "#print will be displayed as: <class 'float'>",
+        "but":  "Copy float type Code"
+    },
+    {
+        "id":   "5",
+        "head": "Modulo Operator With int",
+        "code": "print(15 % 4)",
+        "exp":  "#print will be displayed as: 3 Modulo will return the remainder of standard",
+        "but":  "Copy Modulo Code"
+    },
+    {
+        "id":   "6",
+        "head": "Power of",
+        "code": "print(2 ** 4)",
+        "exp":  "#print will be displayed as: 16",
+        "but":  "Copy power of code"
+    },
+    {
+        "id":   "7",
+        "head": "Augmented assigment operator",
+        "code": "a_value = 10 \n",
+        "code2": "print(a_value += 2)",
+        "exp":  "#print displayed as: 12 It is the same as: a_value = a_value +2",
+        "but":  "Copy Augmented assigment"
+    },
+    {
+        "id":   "8",
+        "head": "Booleans",
+        "code": "print(bool(0)) \n",
+        "code2": "print(bool('True')",
+        "exp":  "# First conditional integer logic print displayed as: False. Second string logic as: True.",
+        "but":  "Copy Booleans"
+    }
+]
