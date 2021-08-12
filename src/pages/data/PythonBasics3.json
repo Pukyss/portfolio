@@ -8,6 +8,24 @@
         "code4": "print(d1['dairy'][2])",
         "exp":  "# print will be yogurt",
         "but":  "Copy Dictionary"
+    },
+    {
+        "id":   "2",
+        "head": "Dictionary error avoidance",
+        "code": "d1 = { 'vegetables': ['carrot','potato','tomato'],\n",
+        "code2": "'fruits': ['Orange','Apple','pear']}\n",
+        "code3": "print(d1.get('dairy'[1],'Out of dairy'))\n",
+        "code4": "print(d1['dairy'][1])",
+        "exp":  "first print: 'Out of dairy'. Second print: KeyError.",
+        "but":  "Copy code"
+    },
+    {
+        "id":   "3",
+        "head": "Create dictionary method 2",
+        "code": "user2 = dict(name='Maximilian')\n",
+        "code2": "print(user2)",
+        "exp":  "print: {'name': 'Maximilian'}",
+        "but":  "Copy code"
     }
     
 ]
