@@ -22,8 +22,9 @@ const Python = () => {
                     <Card.Title>{p.head}</Card.Title>
                     <Card.Text>{p.code}</Card.Text>
                     <Card.Text>{p.code2}</Card.Text>
+                    <Card.Text>{p.code3}</Card.Text>
                     <Card.Text className="text-success">{p.exp}</Card.Text>
-                    <Button variant="primary" onClick={() =>  navigator.clipboard.writeText(p.code + testUnd(p.code2))}>{p.but}</Button>
+                    <Button variant="primary" onClick={() =>  navigator.clipboard.writeText(p.code + testUnd(p.code2) + testUnd(p.code3))}>{p.but}</Button>
                   </Card>
                 </div>
               )})}

@@ -9,7 +9,8 @@
     {
         "id":   "2",
         "head": "int casting",
-        "code": "x = int(0)",
+        "code": "x = int(0)\n",
+        "code2": "print(x)\n",
         "exp":  "#x casted as integer and will be displayed as 0",
         "but":  "Copy int casted Code"
     },
@@ -44,8 +45,9 @@
     {
         "id":   "7",
         "head": "Augmented assigment operator",
-        "code": "a_value = 10 \n",
-        "code2": "print(a_value += 2)",
+        "code": "a_value = 10\n",
+        "code2": "a_value += 2\n",
+        "code3": "print(a_value)",
         "exp":  "#print displayed as: 12 It is the same as: a_value = a_value +2",
         "but":  "Copy Augmented assigment"
     },
