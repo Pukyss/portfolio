@@ -67,6 +67,16 @@
         "code4": "print(c)",
         "exp":  "# first Print a displayed as: 1. Print other will be [2,3,4,5] print c will be 6 ",
         "but":  "Copy list unpacking code"
+    },
+    {
+        "id":   "9",
+        "head": "Dictionary",
+        "code": "d1 = { 'vegetables': ['carrot','potato','tomato'],\n",
+        "code2": "'fruits': ['Orange','Apple','pear'],\n",
+        "code3": "'dairy': ['cheese','butter','yogurt']}\n",
+        "code4": "print(d1['dairy'][2])",
+        "exp":  "# print will be yogurt",
+        "but":  "Copy Dictionary"
     }
     
 ]
