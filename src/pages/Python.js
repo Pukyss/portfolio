@@ -1,9 +1,10 @@
 import React from 'react'
-import {Col, Row, Card, Button, Tabs, Tab} from 'react-bootstrap';
+import {Col, Row, Card, Button, Tabs, Tab, OverlayTrigger,Tooltip } from 'react-bootstrap';
 import './Pages.css';
 import Pdata from "./data/PythonBasics.json";
 import P2data from "./data/PythonBasics2.json";
 import P3data from "./data/PythonBasics3.json";
+import { BiCopyAlt } from "react-icons/bi"
 function testUnd(t) {
   if (t === undefined) {
     return '';
@@ -20,12 +21,24 @@ const Python = () => {
               {Pdata.map(p => {return(
                 <div key={p.id}>
                   <Card body bg = 'dark' text = 'white'>
-                    <Card.Title>{p.head}</Card.Title>
-                    <Card.Text>{p.code}</Card.Text>
-                    <Card.Text>{p.code2}</Card.Text>
-                    <Card.Text>{p.code3}</Card.Text>
-                    <Card.Text className="text-success">{p.exp}</Card.Text>
-                    <Button variant="primary" onClick={() =>  navigator.clipboard.writeText(p.code + testUnd(p.code2) + testUnd(p.code3))}>{p.but}</Button>
+                    <Card.Title>{p.head} 
+                    </Card.Title>
+                    <Card.Text>
+                               <div>{p.code}</div>
+                               <div>{p.code1}</div>
+                               <div>{p.code2}</div>
+                               <div>{p.code3}</div>
+                               <div>{p.code4}</div>
+                    </Card.Text>
+                    <Card.Text className="text-success">
+                                <div>{p.exp}</div>
+                                <div>{p.exp2}</div>
+                    </Card.Text>
+                    <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">{p.but}</Tooltip>}>
+                      <Button variant="primary" onClick={() =>  navigator.clipboard.writeText
+                            (p.code + testUnd(p.code2) + testUnd(p.code3) + testUnd(p.code4))}><BiCopyAlt/>
+                      </Button>
+                    </OverlayTrigger>
                   </Card>
                 </div>
               )})}
@@ -35,12 +48,22 @@ const Python = () => {
                 <div key={p.id}>
                   <Card body bg = 'dark' text = 'white'>
                     <Card.Title>{p.head}</Card.Title>
-                   <p> <Card.Text>{p.code} </Card.Text>
-                    <Card.Text>{p.code2}</Card.Text>
-                    <Card.Text>{p.code3}</Card.Text>
-                    <Card.Text>{p.code4}</Card.Text></p>
-                    <Card.Text className="text-success">{p.exp}</Card.Text>
-                    <Button variant="primary" onClick={() =>  navigator.clipboard.writeText(p.code + testUnd(p.code2) + testUnd(p.code3) + testUnd(p.code4))}>{p.but}</Button>
+                    <Card.Text>
+                               <div>{p.code}</div>
+                               <div>{p.code1}</div>
+                               <div>{p.code2}</div>
+                               <div>{p.code3}</div>
+                               <div>{p.code4}</div>
+                    </Card.Text>
+                    <Card.Text className="text-success">
+                                <div>{p.exp}</div>
+                                <div>{p.exp2}</div>
+                    </Card.Text>
+                    <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">{p.but}</Tooltip>}>
+                      <Button variant="primary" onClick={() =>  navigator.clipboard.writeText
+                            (p.code + testUnd(p.code2) + testUnd(p.code3) + testUnd(p.code4))}><BiCopyAlt/>
+                      </Button>
+                    </OverlayTrigger>
                   </Card>
                 </div>
               )})}
@@ -50,12 +73,22 @@ const Python = () => {
                 <div key={p.id}>
                   <Card body bg = 'dark' text = 'white'>
                     <Card.Title>{p.head}</Card.Title>
-                   <p> <Card.Text>{p.code} </Card.Text>
-                    <Card.Text>{p.code2}</Card.Text>
-                    <Card.Text>{p.code3}</Card.Text>
-                    <Card.Text>{p.code4}</Card.Text></p>
-                    <Card.Text className="text-success">{p.exp}</Card.Text>
-                    <Button variant="primary" onClick={() =>  navigator.clipboard.writeText(p.code + testUnd(p.code2) + testUnd(p.code3) + testUnd(p.code4))}>{p.but}</Button>
+                    <Card.Text>
+                               <div>{p.code}</div>
+                               <div>{p.code1}</div>
+                               <div>{p.code2}</div>
+                               <div>{p.code3}</div>
+                               <div>{p.code4}</div>
+                    </Card.Text>
+                    <Card.Text className="text-success">
+                                <div>{p.exp}</div>
+                                <div>{p.exp2}</div>
+                    </Card.Text>
+                    <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">{p.but}</Tooltip>}>
+                      <Button variant="primary" onClick={() =>  navigator.clipboard.writeText
+                            (p.code + testUnd(p.code2) + testUnd(p.code3) + testUnd(p.code4))}><BiCopyAlt/>
+                      </Button>
+                    </OverlayTrigger>
                   </Card>
                 </div>
               )})}

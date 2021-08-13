@@ -6,7 +6,7 @@
         "code2": "'fruits': ['Orange','Apple','pear'],\n",
         "code3": "'dairy': ['cheese','butter','yogurt']}\n",
         "code4": "print(d1['dairy'][2])",
-        "exp":  "# print will be yogurt",
+        "exp":  "#print will be yogurt",
         "but":  "Copy Dictionary"
     },
     {
@@ -16,7 +16,8 @@
         "code2": "'fruits': ['Orange','Apple','pear']}\n",
         "code3": "print(d1.get('dairy'[1],'Out of dairy'))\n",
         "code4": "print(d1['dairy'][1])",
-        "exp":  "first print: 'Out of dairy'. Second print: KeyError.",
+        "exp":  "#first print: 'Out of dairy'.",
+        "exp2": "#Second print: KeyError.",
         "but":  "Copy code"
     },
     {
@@ -24,7 +25,7 @@
         "head": "Create dictionary method 2",
         "code": "user2 = dict(name='Maximilian')\n",
         "code2": "print(user2)",
-        "exp":  "print: {'name': 'Maximilian'}",
+        "exp":  "#print: {'name': 'Maximilian'}",
         "but":  "Copy code"
     }
     

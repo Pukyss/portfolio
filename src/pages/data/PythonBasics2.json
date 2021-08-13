@@ -20,7 +20,8 @@
         "head": "List memory pointing",
         "code": "list1 = ['item1', 'item2', 'item3', 'item4'] \n",
         "code2": "list2 = list1",
-        "exp":  "#This way list memory location can be copied. If on the list is changed other one will be also changed.",
+        "exp":  "#This way list memory location can be copied. If on the list is",
+        "exp2": "#changed other one will be also changed.",
         "but":  "Copy list memory code"
     },
     {
@@ -37,7 +38,8 @@
         "code": "list1 = [1,2,3,4,5,6] \n",
         "code2": "list1.append(100) \n",
         "code3": "print(list1)",
-        "exp":  "#Print displayed as: [1, 2, 3, 4, 5, 6, 100]  append adding value to the list",
+        "exp":  "#Print displayed as: [1, 2, 3, 4, 5, 6, 100]",
+        "exp2": "#append adding value to the list",
         "but":  "Copy list append code"
     },
     {
@@ -46,7 +48,8 @@
         "code": "list1 = [1,2,3,4,5,6] \n",
         "code2": "new_list = list1.pop(4) \n",
         "code3": "print(new_list)",
-        "exp":  "#Print displayed as: 5   pop is removing targeted value/s from the list.",
+        "exp":  "#Print displayed as: 5 pop is removing",
+        "exp2": "#targeted values from the list.",
         "but":  "Copy list pop code"
     },
     {
@@ -55,7 +58,8 @@
         "code": "list1 = [1,2,3,4,5,6] \n",
         "code2": "list1.insert(4, 100) \n",
         "code3": "print(list1)",
-        "exp":  "#Print displayed as: [1, 2, 3, 4, 100, 5, 6]  insert is adding value after sepecified location in a list",
+        "exp":  "#Print displayed as: [1, 2, 3, 4, 100, 5, 6]",
+        "exp2": "#insert is adding value after sepecified location in a list",
         "but":  "Copy list insert code"
     },
     {
@@ -65,7 +69,8 @@
         "code2": "print(a) \n",
         "code3": "print(other) \n",
         "code4": "print(c)",
-        "exp":  "# first Print a displayed as: 1. Print other will be [2,3,4,5] print c will be 6 ",
+        "exp":  "# first Print a displayed as: 1. Print other will be [2,3,4,5]",
+        "exp2": "#print c will be 6 ",
         "but":  "Copy list unpacking code"
     }    
 ]

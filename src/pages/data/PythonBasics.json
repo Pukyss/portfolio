@@ -1,7 +1,7 @@
 [
     {
         "id":   "1",
-        "head": "int",
+        "head": "int   ",
         "code": "x = 0",
         "exp":  "#x type is integer and will be displayed as 0",
         "but":  "Copy int Code"
@@ -32,7 +32,8 @@
         "id":   "5",
         "head": "Modulo Operator With int",
         "code": "print(15 % 4)",
-        "exp":  "#print will be displayed as: 3 Modulo will return the remainder of standard",
+        "exp":  "#print will be displayed as: 3 Modulo will",
+        "exp2": "#will return the remainder of standard",
         "but":  "Copy Modulo Code"
     },
     {
@@ -48,7 +49,8 @@
         "code": "a_value = 10\n",
         "code2": "a_value += 2\n",
         "code3": "print(a_value)",
-        "exp":  "#print displayed as: 12 It is the same as: a_value = a_value +2",
+        "exp":  "#print displayed as: 12 It is the same as:",
+        "exp2": "#a_value = a_value +2",
         "but":  "Copy Augmented assigment"
     },
     {
@@ -56,7 +58,8 @@
         "head": "Booleans",
         "code": "print(bool(0)) \n",
         "code2": "print(bool('True')",
-        "exp":  "# First conditional integer logic print displayed as: False. Second string logic as: True.",
+        "exp":  "#First conditional integer logic print displayed as: False.",
+        "exp2": "#Second string logic as: True.",
         "but":  "Copy Booleans"
     }
 ]
