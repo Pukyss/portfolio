@@ -102,20 +102,19 @@ const Python = () => {
         <Row>
             <Col xs={6} md={4}>
               {CLogic.map(p => {return(
-                <div key={p.id}>
+                <div key={1}>
                 <Card body bg = 'dark' text = 'white'>
                   <Card.Title>{p.head}</Card.Title>
                   <Card.Text>
                              <div>{p.code}</div>
                              <div>{p.code1}</div>
-                             <div>{p.code2}</div>
-                             <div><span>{"  "}
-                             </span>{p.code3}</div>
-                             <div>{p.code4}</div>
+                             <div>{p.code2}<p></p></div>
+                             <div>{p.code3}</div>
+                             <div className='ml-3'> {p.code4}<p></p></div>
                              <div>{p.code5}</div>
-                             <div>{p.code6}</div>
+                             <div className='ml-3'>{p.code6}<p></p></div>
                              <div>{p.code7}</div>
-                             <div>{p.code8}</div>
+                             <div className='ml-3'>{p.code8}</div>
                   </Card.Text>
                   <Card.Text className="text-success">
                               <div>{p.exp}</div>
