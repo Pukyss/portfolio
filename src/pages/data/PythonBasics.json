@@ -61,5 +61,34 @@
         "exp":  "#First conditional integer logic print displayed as: False.",
         "exp2": "#Second string logic as: True.",
         "but":  "Copy Booleans"
+    },
+    {
+        "id":   "9",
+        "head": "set",
+        "code": "my_set = {1,2,4,4,5,5,3,2,4}\n",
+        "code2": "my_set.add(99)\n",
+        "code3": "my_set.add(4)\n",
+        "code4": "print(my_set)",
+        "exp":  "#No duplicates everything has to be unique",
+        "exp2": "Print will be: {1, 2, 3, 4, 5, 99}",
+        "but":  "Copy set code"
+    },
+    {
+        "id":   "10",
+        "head": "Removing dublicates from list with set",
+        "code": "my_list = [1,2,4,4,5,5,3,2,4]\n",
+        "code2": "print(set(my_list))",
+        "exp": "Print will be: {1, 2, 3, 4, 5}",
+        "but":  "Copy code"
+    },
+    {
+        "id":   "11",
+        "head": "set axesing (indexing)",
+        "code": "my_set = {1,2,4,4,5,5,3,2,4}\n",
+        "code2": "print(4 in my_set)\n",
+        "code3": "print(my_set[0])",
+        "exp":  "#First print: True",
+        "exp2": "second Print: TypeError: 'set' object is not subscriptable ",
+        "but":  "Copy code"
     }
 ]

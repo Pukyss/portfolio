@@ -1,0 +1,17 @@
+[
+    {
+        "id":   "1",
+        "head": "If condition",
+        "code": "is_magician = True\n",
+        "code2": "is_expert = False\n\n",
+        "code3": "if is_expert  and is_magician:\n",
+        "code4": "    print('you are a master magician')\n\n",
+        "code5": "elif is_magician and not is_expert:\n",
+        "code6": "    print('at least you are getting there')\n\n",
+        "code7": "elif not is_magician:\n",
+        "code8": "    print('You need magic powers')\n",
+        "exp":  "#Print will be:",
+        "exp2": "at least you are getting there",
+        "but":  "Copy code"
+    }
+]

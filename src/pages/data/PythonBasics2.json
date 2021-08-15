@@ -72,5 +72,14 @@
         "exp":  "# first Print a displayed as: 1. Print other will be [2,3,4,5]",
         "exp2": "#print c will be 6 ",
         "but":  "Copy list unpacking code"
+    },
+    {
+        "id":   "9",
+        "head": "Tuple",
+        "code": "my_tuple = (1,2,3,4,5,6) \n",
+        "code2": "my_tuple[1] = 'z'",
+        "exp":  "#It is the same as list but can not be edited",
+        "exp2": "#TypeError: 'tuple' object does not support item assignment",
+        "but":  "Copy Tuple code"
     }    
 ]

@@ -27,6 +27,51 @@
         "code2": "print(user2)",
         "exp":  "#print: {'name': 'Maximilian'}",
         "but":  "Copy code"
+    },
+    {
+        "id":   "4",
+        "head": "Clear dictionary",
+        "code": "d1 = { 'vegetables': ['carrot','potato','tomato'],\n",
+        "code2": "'fruits': ['Orange','Apple','pear']}\n",
+        "code3": "d1.clear()\n",
+        "code4": "print(d1)",
+        "exp":  "#Print will be {} emty Dictionary",
+        "but":  "Copy Clear dictionary code"
+    },
+    {
+        "id":   "5",
+        "head": "Copy dictionary",
+        "code": "d1 = { 'vegetables': ['carrot','potato','tomato'],\n",
+        "code2": "'fruits': ['Orange','Apple','pear']}\n",
+        "code3": "d2 = d1.copy()\n",
+        "code4": "print(d1)\n",
+        "code5": "print(d2)",
+        "exp":  "#It will print same dictionary twice",
+        "but":  "Copy dictionary code"
+    },
+    {
+        "id":   "5",
+        "head": "Remove value from Dictionary",
+        "code": "d1 = { 'vegetables': ['carrot','potato','tomato'],\n",
+        "code2": "'dairy': ['cheese','butter','yogurt']}\n",
+        "code3": "print(d1.pop('vegetables'))\n",
+        "code4": "print(d1)",
+        "exp":   "#First print: ['carrot', 'potato', 'tomato']",
+        "exp2":  "#second print {'dairy': ['cheese', 'butter', 'yogurt']}",
+        "but":   "Copy Dictionary Value delete code"
+    },
+    {
+        "id":   "6",
+        "head": "Update Dictionary values",
+        "code": "d1 = { 'vegetables':['carrot']}\n",
+        "code1": "d1.update({ 'vegetables':['onion']})\n",
+        "code2": "print(d1)\n",
+        "code3": "d1.update({'dairy':['cheese']})\n",
+        "code4": "print(d1)",
+        "exp":   "#First {'vegetables': ['onion']}",
+        "exp2":  "#second print {'vegetables': ['onion'], 'dairy': ['cheese']}",
+        "but":   "Copy update Values code"
     }
+
     
 ]
