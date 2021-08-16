@@ -11,7 +11,70 @@
         "code7": "elif not is_magician:\n",
         "code8": "    print('You need magic powers')\n",
         "exp":  "#Print will be:",
-        "exp2": "at least you are getting there",
+        "exp2": "#At least you are getting there",
+        "but":  "Copy code"
+    },
+    
+    {
+        "id":   "2",
+        "head": "For loop and dictionary",
+        "code": "user = { 'name': 'Golem',\n",
+        "code2": "'age': 5006}\n",
+        "code3": "for item in user.items():\n",
+        "code4": "    print(item)\n\n",
+        "code5": "for item in user.values():\n",
+        "code6": "    print(item)\n\n",
+        "code7": "for item in user.keys():\n",
+        "code8": "    print(item)\n\n",
+        "code9": "for k, v in user.items():\n",
+        "code10": "    print(k, v)\n",
+        "exp":  "#Print items: ('name', 'Golem')",
+        "exp2": "#('age', 5006)",
+        "exp3": "#Print values: Golem",
+        "exp4": "#5006",
+        "exp5": "#Print keys: name",
+        "exp6": "#age",
+        "exp7": "#Print (k, v): name Golem",
+        "exp8": "#age 5006",
+        "but":  "Copy code"
+    },
+
+    {
+        "id":   "3",
+        "head": "range and for loop",      
+        "code3": "for number in range(0, 15):\n",
+        "code4": "    print(number)\n\n",
+        "code5": "for negative_number in range(10, 0, -1):\n",
+        "code6": "    print(negative_number)\n\n",
+        "code7": "for list_number in range(2):\n",
+        "code8": "    print(list(range(10)))\n",
+        "exp":  "#Print number:1 2 3 4 5 6 7.. 14",
+        "exp2": "#prints from first indentified number till the second number",
+        "exp3": "#print negative_number: 10 9 8 7 6 5 4 3 2 1",
+        "exp4": "#fird number indentifies lopping action",
+        "exp5": "#Print list_number:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+        "exp6": "#[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+        "but":  "Copy code"
+    },
+    {
+        "id":   "4",
+        "head": "enumerate and for loop",      
+        "code3": "for i, char in enumerate('yes'):\n",
+        "code4": "    print(i, char)\n",
+        "exp":  "#0 y",
+        "exp2": "#1 e",
+        "exp3": "#2 s",
+        "but":  "Copy code"
+    },
+    {
+        "id":   "5",        
+        "head": "while loop:",
+        "code3": "i = 0\n",      
+        "codes1": "while i < 10:\n",
+        "codes2":"    print(i)\n",
+        "code4": "    i += 1\n",
+        "exp":  "#it will loop from 0 till 9",
+        "exp2": "#0 1 2 3 4 5 6 7 8 9",
         "but":  "Copy code"
     }
 ]
