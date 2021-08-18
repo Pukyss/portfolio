@@ -1,17 +1,57 @@
 [
     {
-        "id":   "1",
-        "head": "For loop and dictionary",
-        "code": "User = { 'name': 'Golem',/n",
-        "code2": "'age': 5006,'}/n",
-        "code3": "for item in user.items():/n",
-        "code4": "    print('you are a master magician')\n\n",
-        "code5": "elif is_magician and not is_expert:\n",
-        "code6": "    print('at least you are getting there')\n\n",
-        "code7": "elif not is_magician:\n",
-        "code8": "    print('You need magic powers')\n",
+        "id":   "1",        
+        "head": "Simple function",
+        "code3": "def say_hello():\n",      
+        "code4":"    print('Hello world')\n",
+        "code5": "say_hello()",
+        "exp":  "#it will Display:",
+        "exp2": "#Hello world",
+        "but":  "Copy Simple function code"
+    },
+    {
+        "id":   "2",        
+        "head": "Positional Function",
+        "code3": "def Name_emoji(name, emoji):\n",      
+        "code4":"    print(f'{name} {emoji}')\n",
+        "code5": "Name_emoji('Samuel', ':)')",
+        "exp":  "#it will Display:",
+        "exp2": "#Samuel :)",
+        "but":  "Copy Positional Function code"
+    },
+    {
+        "id":   "3",        
+        "head": "Function with default parameters",
+        "code3": "def Name_emoji(name = 'Sam', emoji = '=^.^='):\n",      
+        "code4":"    print(f'Helo {name} {emoji}')\n",
+        "codes3": "Name_emoji('Samuel', ':)')\n",
+        "codes4": "Name_emoji()\n",
+        "exp":  "#first call: Helo Samuel :)",
+        "exp2": "#Secon call: Helo Sam =^.^=",
+        "but":  "Copy code"
+    },
+    {
+        "id":   "4",        
+        "head": "Function with return",
+        "code3": "def Name_emoji(name = 'Sam', emoji = '=^.^='):\n",      
+        "code4":"    return f'Helo {name} {emoji}'",
+        "codes3": "print (Name_emoji('sami',':)'))\n",
         "exp":  "#Print will be:",
-        "exp2": "#At least you are getting there",
+        "exp2": "#Helo sami :)",
+        "but":  "Copy code"
+    },
+    {
+        "id":   "5",        
+        "head": "Function info",      
+        "codes1": "def test(a):\n",
+        "codes2":"    '''\n",
+        "codes2a":"   info: This function prints para a\n",
+        "codes2b":"   ''' \n",
+        "code4": "    print(a)\n",
+        "codes3": "help(test)\n",
+        "codes4": "print(test.__doc__)\n",
+        "exp":  "#First print: info: This function prints para a",
+        "exp2": "#Second print: info: This function prints para a",
         "but":  "Copy code"
     }
 ]

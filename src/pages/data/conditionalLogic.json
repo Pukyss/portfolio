@@ -69,7 +69,7 @@
     {
         "id":   "5",        
         "head": "while loop:",
-        "code3": "i = 0\n",      
+        "code2": "i = 0\n",      
         "codes1": "while i < 10:\n",
         "codes2":"    print(i)\n",
         "code4": "    i += 1\n",
