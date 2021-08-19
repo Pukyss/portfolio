@@ -158,7 +158,8 @@ const Python = () => {
                              <div>{p.codes1}</div>
                              <div className='ml-3'>{p.codes2}</div>
                              <div className='ml-3'>{p.codes2a}</div>
-                             <div className='ml-3'>{p.codes2b}</div>                               
+                             <div className='ml-3'>{p.codes2b}</div> 
+                             <div className='ml-5'>{p.codes1a1}</div>                              
                              <div className='ml-3'>{p.code4}<p></p></div>
                              <div>{p.codes3}</div>
                              <div>{p.codes4}</div>                             
@@ -182,8 +183,8 @@ const Python = () => {
                   </Card.Text>
                   <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">{p.but}</Tooltip>}>
                     <Button variant="primary" onClick={() =>  navigator.clipboard.writeText
-                                   (testUnd(p.code) + testUnd(p.code2) + testUnd(p.code3) + testUnd(p.codes1) + testUnd(p.codes2) + testUnd(p.codes2a) + testUnd(p.codes2b) + testUnd(p.code4) + testUnd(p.codes3) 
-                                   + testUnd(p.codes4) + testUnd(p.code5) + testUnd(p.code6) + testUnd(p.code7) + testUnd(p.code8) + testUnd(p.code9) + testUnd(p.code10)
+                                   (testUnd(p.code) + testUnd(p.code2) + testUnd(p.code3) + testUnd(p.codes1) + testUnd(p.codes2) + testUnd(p.codes2a) + testUnd(p.codes2b) + testUnd(p.codes1a1) 
+                                   + testUnd(p.code4) + testUnd(p.codes3) + testUnd(p.codes4) + testUnd(p.code5) + testUnd(p.code6) + testUnd(p.code7) + testUnd(p.code8) + testUnd(p.code9) + testUnd(p.code10)
                                   )}><BiCopyAlt/>
                     </Button>
                   </OverlayTrigger>

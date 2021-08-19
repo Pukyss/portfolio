@@ -53,5 +53,39 @@
         "exp":  "#First print: info: This function prints para a",
         "exp2": "#Second print: info: This function prints para a",
         "but":  "Copy code"
+    },
+    {
+        "id":   "6",        
+        "head": "Function *args",      
+        "codes1": "def arg_function(*args):\n",
+        "codes2":"    return sum(args)\n",
+        "codes3": "print(arg_function(1,2,3,4,5))\n",
+        "exp":  "#It will add all values in to tuple and sum it",
+        "exp2": "Print: 15",
+        "but":  "Copy code"
+    },
+    {
+        "id":   "7",        
+        "head": "Function **kwargs",      
+        "codes1":  "def kwargs_function(**kwargs):\n",
+        "codes2":  "   total = 0\n",
+        "codes2a": "   for items in kwargs.values():\n",
+        "codes1a1":"     total += items\n",
+        "code4":   "   return total\n",
+        "codes4": "print(kwargs_function(num1=5, num2=10, num3=15))\n",
+        "exp":  "#kwargs function converts values in to dictionary",
+        "exp2": "#print will be 30",
+        "but":  "Copy code"
+    },
+    {
+        "id":   "8",        
+        "head": "the walrus operator function",
+        "code2": "a = 'helloooooooooo'\n",      
+        "codes1":  "if ((n := len(a)) > 10):\n",
+        "codes2":  "   print(f'too long {n} elements')\n",
+        "exp":  "#print will be:",
+        "exp2": "#too long 14 elements",
+        "but":  "Copy code"
     }
+
 ]
