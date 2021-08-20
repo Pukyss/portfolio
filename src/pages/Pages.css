@@ -1,4 +1,10 @@
-.divZero{
+/*.divZero{
     box-sizing: border-box;
     margin-right: 30px;
   }
+*/
+  
+#divZero{
+  margin-left: 30px;
+  margin-right: 30px;
+}
