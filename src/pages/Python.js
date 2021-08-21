@@ -210,7 +210,13 @@ const Python = () => {
                              <div className='ml-5'>{p.codes2b1}</div>
                              <div className='ml-5'>{p.codes2b2}<p></p></div>
                              <div className='ml-3'>{p.codes2c}</div> 
-                             <div className='ml-5'>{p.codes2c1}</div>                               
+                             <div className='ml-5'>{p.codes2c1}<p></p></div>
+                             <div className='ml-3'>{p.codes2d}</div>
+                             <div className='ml-3'>{p.codes2d1}</div> 
+                             <div className='ml-5'>{p.codes2d2}<p></p></div> 
+                             <div className='ml-3'>{p.codes2e}</div>
+                             <div className='ml-3'>{p.codes2e1}</div> 
+                             <div className='ml-5'>{p.codes2e2}<p></p></div>                                
                              <div className='ml-3'>{p.code4}<p></p></div>
                              <div>{p.code5}</div>
                              <div>{p.code6}</div>                             
@@ -235,7 +241,8 @@ const Python = () => {
                   </Card.Text>
                   <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">{p.but}</Tooltip>}>
                     <Button variant="primary" onClick={() =>  navigator.clipboard.writeText
-                                   (testUnd(p.code) + testUnd(p.code2) + testUnd(p.code3) + testUnd(p.codes1) + testUnd(p.codes2) + testUnd(p.codes2a) + testUnd(p.codes2b) + testUnd(p.codes2b1) + testUnd(p.codes2b2) + testUnd(p.codes2c) + testUnd(p.codes2c1)
+                                   (testUnd(p.code) + testUnd(p.code2) + testUnd(p.code3) + testUnd(p.codes1) + testUnd(p.codes2) + testUnd(p.codes2a) + testUnd(p.codes2b) + testUnd(p.codes2b1) 
+                                   + testUnd(p.codes2b2) + testUnd(p.codes2c) + testUnd(p.codes2c1) + testUnd(p.codes2d) + testUnd(p.codes2d1) + testUnd(p.codes2d2) + testUnd(p.codes2e) + testUnd(p.codes2e1) + testUnd(p.codes2e2)
                                    + testUnd(p.code4) + testUnd(p.code5) + testUnd(p.code6) + testUnd(p.code7) + testUnd(p.code8) + testUnd(p.code9) + testUnd(p.code10) + testUnd(p.code11) + testUnd(p.code12)+ testUnd(p.code12)
                                   )}><BiCopyAlt/>
                     </Button>

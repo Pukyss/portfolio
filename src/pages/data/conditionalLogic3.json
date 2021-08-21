@@ -4,7 +4,7 @@
         "head": "Simple Class",
         "codes1":  "class PlayerCharacter:\n",
         "codes2b": "   def __init__(self, name, age):\n",
-        "codes2b1":"     self.name = name\n\n",
+        "codes2b1":"     self.name = name\n",
         "codes2b2":"     self.age = age\n\n",
         "codes2c": "   def run(self):\n",
         "codes2c1":"     print(f'my name is')\n\n",
@@ -12,11 +12,29 @@
         "code6": "player2 = PlayerCharacter('Cindy', 32)\n\n",
         "code9": "print(player1.name, player1.age, player2.run())\n",
         "code10": "print(player2.age, player2.name, player2.run())\n",
-        "exp":  "#First Print: Tom 44",
-        "exp2": "#Second Print: my name is Cindy",
-        "exp3": "#Second Print: 32 Cindy",
-        "exp4": "#Second Print: 32 Cindy",
+        "exp":  "#First Print: my name is",
+        "exp2": "#Second Print: Tom 44 None",
+        "exp3": "#Third Print: my name is",
+        "exp4": "#Fourth Print: 32 Cindy None",
        
         "but":  "Copy Simple function code"
+    },
+    {
+        "id":       "2",        
+        "head":     "Class skeleton",
+        "codes1":   "class NameOfClass:\n",
+        "codes2a":  "   class_attribute = 'value'\n",
+        "codes2b":  "   def __init__(self, param1, parma2):\n",
+        "codes2b1": "      self.param1 = param1n\n",
+        "codes2b2": "      self.param2 = param2n\n\n",
+        "codes2c":  "   def method(self):\n",
+        "codes2c1": "      #code\n\n",
+        "codes2d":  "   @classMethod\n",
+        "codes2d1": "   def cls_method(cls, param1, param2):\n",
+        "codes2d2": "      #code\n\n",
+        "codes2e":  "   @staticmethod\n",
+        "codes2e1": "   def stc_method(param1, param2):\n",
+        "codes2e2": "      #code\n",       
+        "but":  "Copy Simple function code"
     }
-]    
+] 
