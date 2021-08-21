@@ -17,7 +17,7 @@
         "exp3": "#Third Print: my name is",
         "exp4": "#Fourth Print: 32 Cindy None",
        
-        "but":  "Copy Simple function code"
+        "but":  "Copy code"
     },
     {
         "id":       "2",        
@@ -35,6 +35,6 @@
         "codes2e":  "   @staticmethod\n",
         "codes2e1": "   def stc_method(param1, param2):\n",
         "codes2e2": "      #code\n",       
-        "but":  "Copy Simple function code"
+        "but":  "Copy code"
     }
 ] 
